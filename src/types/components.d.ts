@@ -7,7 +7,28 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AddCreditsModal: typeof import('./../components/add-credits-modal.vue')['default']
+    'AddCreditsModal.1': typeof import('./../components/add-credits-modal.1.vue')['default']
+    BaseButton: typeof import('./../components/base-button.vue')['default']
+    LoginForm: typeof import('./../components/login-form.vue')['default']
+    NAvatar: typeof import('naive-ui')['NAvatar']
+    NButton: typeof import('naive-ui')['NButton']
+    NCard: typeof import('naive-ui')['NCard']
+    NCardBody: typeof import('naive-ui')['NCardBody']
+    NConfigProvider: typeof import('naive-ui')['NConfigProvider']
+    NForm: typeof import('naive-ui')['NForm']
+    NFormItem: typeof import('naive-ui')['NFormItem']
+    NH1: typeof import('naive-ui')['NH1']
+    NIcon: typeof import('naive-ui')['NIcon']
+    NInput: typeof import('naive-ui')['NInput']
+    NInputNumber: typeof import('naive-ui')['NInputNumber']
+    NMenu: typeof import('naive-ui')['NMenu']
+    NMessageProvider: typeof import('naive-ui')['NMessageProvider']
+    NModal: typeof import('naive-ui')['NModal']
+    NResult: typeof import('naive-ui')['NResult']
+    NStatistic: typeof import('naive-ui')['NStatistic']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SetBillingPlanModal: typeof import('./../components/set-billing-plan-modal.vue')['default']
   }
 }

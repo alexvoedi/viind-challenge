@@ -1,3 +1,3 @@
 interface ImportMetaEnv {
-  // add your environment variables here
+  VITE_BACKEND_URL: string
 }

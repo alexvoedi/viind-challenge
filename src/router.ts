@@ -4,8 +4,15 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    component: () => import('./pages/index.vue')
-  }
+    name: 'home',
+    component: () => import('./pages/index.vue'),
+  },
+  {
+    path: '/customers/:customerId',
+    name: 'customer',
+    props: true,
+    component: () => import('./pages/customers.vue'),
+  },
 ]
 
 const router = createRouter({

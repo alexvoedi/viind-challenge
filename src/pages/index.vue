@@ -1,12 +1,18 @@
 <script setup lang="ts">
-const { t } = useI18n()
+const customerIds = ref([
+  '1234',
+])
 </script>
 
 <template>
-  <div>
-    <h1>{{ t('hello') }}</h1>
-  </div>
+  <n-card title="Customers">
+    <router-link v-for="customerId of customerIds" :key="customerId" :to="{ name: 'customer', params: { customerId } }">
+      <span class="ico-mdi-open-in-new" />
+      <span>{{ customerId }}</span>
+    </router-link>
+  </n-card>
 </template>
 
 <style>
+
 </style>
