@@ -8,7 +8,7 @@ import Inspect from 'vite-plugin-inspect'
 import { NaiveUiResolver, VueUseComponentsResolver } from 'unplugin-vue-components/resolvers'
 
 export default defineConfig({
-  base: '/viinid-challenge/',
+  base: '/viind-challenge/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
