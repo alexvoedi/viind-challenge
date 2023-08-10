@@ -29,7 +29,7 @@ pnpm run dev
 
 ### challenge 3
 
-- This challenge is about adding a feature, whe the user can use an online service to pay for the additional credits.
+- This challenge is about adding a feature, where the user can use an online service to pay for the additional credits.
 
 - Concept:
   1. Integration the payment service:
